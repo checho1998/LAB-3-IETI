@@ -3,8 +3,6 @@
 ## Heroku
  Link de la aplicación desplegada en Heroku
 
-https://la-3-ieti.herokuapp.com/
-
 [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://la-3-ieti.herokuapp.com/)
 
 ## Application
