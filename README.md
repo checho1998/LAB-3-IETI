@@ -5,7 +5,7 @@
 
 https://la-3-ieti.herokuapp.com/
 
-## Aplication
+## Application
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
