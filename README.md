@@ -7,8 +7,8 @@
 
 ### Credenciales
 
-Usuario: sergionuñez@hotmail.com
- Clave: 0000
+- Usuario: sergionuñez@hotmail.com
+- Clave: 0000
  
 ## Desarrollo
 
