@@ -2,40 +2,48 @@ import React from 'react';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
+import "./Login.css";
+
+
+
 import FormControl from '@material-ui/core/FormControl';
 import Input from '@material-ui/core/Input';
 import InputLabel from '@material-ui/core/InputLabel';
 import LockIcon from '@material-ui/icons/LockOutlined';
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
-import './Login.css';
-import  NavBar from '../NavBar';
 
-export class Login extends React.Component{
-
-
-    loginSubmit(){
-        const email=document.getElementById("email").value;
-        const password=document.getElementById("password").value
-        console.log(email + " " + password)
-        if( email!=="" &&  password!==""){
-            localStorage.setItem("isLoggedin",true);
-            localStorage.setItem("mailLogged",email);
-            localStorage.setItem("passwordLogged",password);
-        }
+export class Login extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { email: "", password: "" };
+        this.handleEmail = this.handleEmail.bind(this);
+        this.handlePassword = this.handlePassword.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-
-    render(){
-        const LoginView = () => (
-            <Login/>
-        );
-
-        const About = () => (
-            <div>
-                <NavBar/>
-            </div>
-        );
+    handlePassword(e) {
+        this.setState({
+            password: e.target.value
+        });
+    }
+    handleEmail(e) {
+        this.setState({
+            email: e.target.value
+        });
+    }
+    handleSubmit(e) {
+        const user = "sergionuñez@hotmail.com";
+        const pass = "0000";
+        e.preventDefault();
+        if (this.state.email !== user && !this.state.password !== pass) {
+            alert("Correo o password incorrecto");
+            return;
+        }
+        localStorage.setItem("email", this.state.email);
+        this.props.login();
+    }
+    render() {
         return (
             <React.Fragment>
                 <CssBaseline />
@@ -44,11 +52,17 @@ export class Login extends React.Component{
                         <Avatar className="avatar">
                             <LockIcon />
                         </Avatar>
-                        <Typography variant="headline">Sign in</Typography>
-                        <form className="form">
+                        <Typography variant="h2">Sign in</Typography>
+                        <form className="form" onSubmit={this.handleSubmit}>
                             <FormControl margin="normal" required fullWidth>
                                 <InputLabel htmlFor="email">Email Address</InputLabel>
-                                <Input id="email" name="email" autoComplete="email" autoFocus />
+                                <Input
+                                    id="email"
+                                    name="email"
+                                    autoComplete="email"
+                                    onChange={this.handleEmail}
+                                    autoFocus
+                                />
                             </FormControl>
                             <FormControl margin="normal" required fullWidth>
                                 <InputLabel htmlFor="password">Password</InputLabel>
@@ -57,6 +71,7 @@ export class Login extends React.Component{
                                     type="password"
                                     id="password"
                                     autoComplete="current-password"
+                                    onChange={this.handlePassword}
                                 />
                             </FormControl>
                             <Button
@@ -64,7 +79,7 @@ export class Login extends React.Component{
                                 fullWidth
                                 variant="contained"
                                 color="primary"
-                                onClick = {this.loginSubmit}
+                                className="submit"
                             >
                                 Sign in
                             </Button>
