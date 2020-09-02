@@ -25,6 +25,10 @@ Todo se realizo
 
 ![Imagenes](https://github.com/checho1998/LAB-3-IETI/blob/master/Imagenes/3.PNG)
 
+sin internet
+
+![Imagenes](https://github.com/checho1998/LAB-3-IETI/blob/master/Imagenes/4.PNG)
+
 ## Application
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
