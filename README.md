@@ -14,11 +14,16 @@
 
 Se realizo Login
 
-![Imagenes](https://github.com/checho1998/LAB-3-IETI/edit/master/Imagenes/1.PNG)
+![Imagenes](https://github.com/checho1998/LAB-3-IETI/blob/master/Imagenes/1.PNG)
+
 
 Se realizo Task
 
-![Imagenes](https://github.com/checho1998/LAB-3-IETI/edit/master/Imagenes/2.PNG)
+![Imagenes](https://github.com/checho1998/LAB-3-IETI/blob/master/Imagenes/2.PNG)
+
+Todo se realizo
+
+![Imagenes](https://github.com/checho1998/LAB-3-IETI/blob/master/Imagenes/3.PNG)
 
 ## Application
 
