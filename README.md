@@ -12,20 +12,20 @@
  
 ## Desarrollo
 
-Se realizo Login
+- Se realizo Login
 
 ![Imagenes](https://github.com/checho1998/LAB-3-IETI/blob/master/Imagenes/1.PNG)
 
 
-Se realizo Task
+- Se realizo Task
 
 ![Imagenes](https://github.com/checho1998/LAB-3-IETI/blob/master/Imagenes/2.PNG)
 
-Todo se realizo
+- Todo se realizo
 
 ![Imagenes](https://github.com/checho1998/LAB-3-IETI/blob/master/Imagenes/3.PNG)
 
-sin internet
+- Sin internet
 
 ![Imagenes](https://github.com/checho1998/LAB-3-IETI/blob/master/Imagenes/4.PNG)
 
