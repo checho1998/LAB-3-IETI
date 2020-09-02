@@ -5,6 +5,21 @@
 
 [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://la-3-ieti.herokuapp.com/)
 
+### Credenciales
+
+Usuario: sergionuñez@hotmail.com
+ Clave: 0000
+ 
+## Desarrollo
+
+Se realizo Login
+
+![Imagenes](https://github.com/checho1998/LAB-3-IETI/edit/master/Imagenes/1.PNG)
+
+Se realizo Task
+
+![Imagenes](https://github.com/checho1998/LAB-3-IETI/edit/master/Imagenes/2.PNG)
+
 ## Application
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
