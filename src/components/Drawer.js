@@ -118,7 +118,7 @@ export default function PersistentDrawerLeft() {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" noWrap>
-                        List Todo
+                        Task Planner
                     </Typography>
                 </Toolbar>
             </AppBar>
@@ -152,16 +152,16 @@ export default function PersistentDrawerLeft() {
                 <div className={classes.drawerHeader} />
                 <TodoList
                     todoList={[
-                        { text: "Learn React", priority: 5, dueDate: new Date() },
+                        { text: "Implement Login View", priority: 8, dueDate: new Date() },
                         {
-                            text: "Learn about APIs",
-                            priority: 4,
-                            dueDate: new Date(2020, 1, 23)
+                            text: "Implement Login Controller",
+                            priority: 6,
+                            dueDate: new Date(2020, 5, 22)
                         },
                         {
-                            text: "write TODO App",
+                            text: "Facebook Integration",
                             priority: 3,
-                            dueDate: new Date(2020, 1, 30)
+                            dueDate: new Date(2020, 7, 25)
                         }
                     ]}
                 />
