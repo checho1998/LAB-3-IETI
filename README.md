@@ -24,6 +24,8 @@
 
 - se realizo todo
 
+![Imagenes](https://github.com/checho1998/LAB-3-IETI/blob/master/Imagenes/4.PNG)
+
 ![Imagenes](https://github.com/checho1998/LAB-3-IETI/blob/master/Imagenes/2.PNG)
 
 ![Imagenes](https://github.com/checho1998/LAB-3-IETI/blob/master/Imagenes/3.PNG)
