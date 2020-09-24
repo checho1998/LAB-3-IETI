@@ -2,7 +2,7 @@
 
 ## Despliegue Firebase
 
-- https://console.firebase.google.com/project/taks-planner-app-5cefa/overview
+- https://taks-planner-app-5cefa.firebaseapp.com/
 - https://taks-planner-app-5cefa.web.app/
 
 ## Heroku
