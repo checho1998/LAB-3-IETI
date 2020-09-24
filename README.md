@@ -1,5 +1,10 @@
 # LAB-3-IETI
 
+### Credenciales
+
+- Usuario: sergionuñez@hotmail.com
+- Clave: 0000
+
 ## Despliegue Firebase
 
 - https://taks-planner-app-5cefa.firebaseapp.com/
@@ -10,10 +15,6 @@
 
 [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://la-3-ieti.herokuapp.com/)
 
-### Credenciales
-
-- Usuario: sergionuñez@hotmail.com
-- Clave: 0000
  
 ## Desarrollo
 
