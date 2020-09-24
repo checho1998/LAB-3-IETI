@@ -17,22 +17,17 @@
  
 ## Desarrollo
 
-- Se realizo Login
+- Se subio correctamente a Firebase
 
 ![Imagenes](https://github.com/checho1998/LAB-3-IETI/blob/master/Imagenes/1.PNG)
 
 
-- Se realizo Task
+- se realizo todo
 
 ![Imagenes](https://github.com/checho1998/LAB-3-IETI/blob/master/Imagenes/2.PNG)
 
-- Todo se realizo
-
 ![Imagenes](https://github.com/checho1998/LAB-3-IETI/blob/master/Imagenes/3.PNG)
 
-- Sin internet
-
-![Imagenes](https://github.com/checho1998/LAB-3-IETI/blob/master/Imagenes/4.PNG)
 
 ## Application
 
