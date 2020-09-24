@@ -1,5 +1,10 @@
 # LAB-3-IETI
 
+## Despliegue Firebase
+
+- https://console.firebase.google.com/project/taks-planner-app-5cefa/overview
+- https://taks-planner-app-5cefa.web.app/
+
 ## Heroku
  Link de la aplicación desplegada en Heroku
 
