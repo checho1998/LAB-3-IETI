@@ -10,8 +10,8 @@ import Divider from "@material-ui/core/Divider";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 
-
-
+import Button from '@material-ui/core/Button';
+import PeopleAltIcon from '@material-ui/icons/PeopleAlt';
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import { TodoList } from "./TodoList";
@@ -19,6 +19,16 @@ import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import CssBaseline from "@material-ui/core/CssBaseline";
+import Dialog from '@material-ui/core/Dialog';
+import DialogActions from '@material-ui/core/DialogActions';
+import DialogContent from '@material-ui/core/DialogContent';
+import DialogContentText from '@material-ui/core/DialogContentText';
+import DialogTitle from '@material-ui/core/DialogTitle';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
+import ListItemAvatar from '@material-ui/core/ListItemAvatar';
+import Avatar from '@material-ui/core/Avatar';
 
 
 const drawerWidth = 240;
@@ -115,6 +125,7 @@ export default function PersistentDrawerLeft() {
                         edge="start"
                         className={clsx(classes.menuButton, open && classes.hide)}
                     >
+                        <h6>Menu</h6>
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" noWrap>
@@ -143,6 +154,11 @@ export default function PersistentDrawerLeft() {
                 <AccountCircleIcon className={classes.user} />
                 <h3> {localStorage.getItem("email")}</h3>
                 <Divider />
+
+                <Button variant="contained" fullWidth color="inherit" startIcon={<PeopleAltIcon />}>
+                    Lista de Usuarios
+                </Button>
+
             </Drawer>
             <main
                 className={clsx(classes.content, {
