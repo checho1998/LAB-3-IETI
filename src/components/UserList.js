@@ -11,18 +11,20 @@ export class UserList extends Component {
     }
 
     render() {
-        //console.log("En userrrr")
         const userList = this.props.usersList.map((user, i) => {
-            //console.log(user)
             return (
                 <Card className="root">
                     <CardContent>
+                        <Typography className="title" component="h2">
+                            Full Name: {user.name}
+                        </Typography>
+
                         <Typography className="title" component="h2">
                             Email: {user.email}
                         </Typography>
 
                         <Typography className="title" component="h2">
-                            Full Name: {user.fullName}
+                            Id: {user.id}
                         </Typography>
 
                         <Typography className="title" component="h2">

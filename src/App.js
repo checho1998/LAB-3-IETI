@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import { Login } from "./components/Login";
 import Home from "./components/Drawer";
-import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
 import UserList from "./components/UserList";
 
 class App extends Component {
@@ -23,8 +23,8 @@ class App extends Component {
             .then(response => response.json())
             .then(data => {
                 let usersList = [];
-                data.items.forEach(function (user) {
-                    this.usersList.push({
+                data.map((user) => {
+                    usersList.push({
                         "name":user.name,
                         "email":user.email,
                         "id":user.id,
@@ -51,17 +51,19 @@ class App extends Component {
             <Router>
                 <div className="App">
                     <div>
+                        <br></br>
+                        <br></br>
+
                         {redi}
                         <Route exact path="/" component={this.state.LoginView} />
                         <Route path="/home" component={this.state.TodoAppView} />
                     </div>
                     <br></br>
                     <br></br>
-                    <br></br>
                     <h4>Lista de Usuarios</h4>
-                    <div>
-                        <UserList usersList={this.state.userList}/>
-                    </div>
+
+                    <UserList usersList={this.state.userList}/>
+
                 </div>
             </Router>
         );
